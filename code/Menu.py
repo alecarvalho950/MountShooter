@@ -27,8 +27,7 @@ class Menu:
             for i in range(len(MENU_OPTION)):
                 if i == menu_option:
                     self.menu_text(20, MENU_OPTION[i], C_YELLOW, ((WIN_WIDTH / 2), 200 + 25 * i))
-                    self.menu_text(10, "Alejandro Gomes Carvalho", C_ORANGE, (80, 6))
-                    self.menu_text(10, "RU:4547278", C_ORANGE, (38, 20))
+                    self.menu_text(10, "Alejandro Gomes Carvalho - RU:4547278", C_ORANGE, (115, 6))
                 else:
                     self.menu_text(20, MENU_OPTION[i], C_WHITE, ((WIN_WIDTH / 2), 200 + 25 * i))
             pygame.display.flip()
